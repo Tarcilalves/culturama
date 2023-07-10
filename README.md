@@ -52,7 +52,7 @@
 
 # Acesso ao projeto
 
-[Clique aqui para visitar o site](https://tarcilalves.github.io/AluraPlus/)
+[Clique aqui para visitar o site](https://tarcilalves.github.io/culturama/)
 
 
 
