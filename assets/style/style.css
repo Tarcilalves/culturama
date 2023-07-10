@@ -144,7 +144,7 @@ img:hover {
     padding: 1.5rem;
     text-transform: uppercase;
     cursor: pointer;
-    user-select: none;
+    /* -webkit-user-select: auto; */
     transition: 0.5s;
     opacity: 1;
     min-width: 282px;
@@ -197,12 +197,15 @@ img:hover {
     margin-bottom: 1.5rem;
     background-image: url("../img/destaques-360.png");
     background-repeat: no-repeat;
-    height: 271px;
+    height: 271px;    
     background-size: cover;
-    background-position: center;
+    background-position: center;   
     opacity: 1;
     transition: 0.5s;
+   
 }
+
+
 
 .categorias__imagem:hover {
     opacity: 0.7;
@@ -218,7 +221,7 @@ img:hover {
     background-color: var(--cinza-claro);
     width: 307px;
     padding-bottom: 1rem;
-    height: 318px;
+    height: auto;
 }
 
 .eventos__item img {
@@ -249,7 +252,7 @@ img:hover {
     margin-right: 1rem;
     text-align: center;
     padding: .5rem 0;
-    width: 80px;
+    width: 100px;
     cursor: pointer;
     transition: .5s;
 }
@@ -297,12 +300,12 @@ img:hover {
 }
 
 .agenda__informacoes h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .agenda__informacoes h4,
 .agenda__informacoes h5 {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .agenda__item .agenda__atracao {
@@ -332,11 +335,11 @@ img:hover {
 .rodape {
     color: var(--cinza-claro);
     background-color: black;
-    margin: 1rem 0;
+    margin: 2rem 0;
     font-size: 14px;
     font-family: var(--fonte-primaria);
     padding: 1rem 1.5rem;
-    line-height: 2;
+    line-height: 1.5;
     white-space: nowrap;
 }
 
@@ -347,6 +350,7 @@ img:hover {
 .rodape__titulo {
     font-size: 18px;
     font-family: var(--fonte-secundaria);
+    padding-top: .8em;
 }
 
 .rodape__logo {
